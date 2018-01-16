@@ -1,0 +1,27 @@
+.Navigation{
+    padding:0;
+    list-style: none;
+    margin:0;
+}
+li{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px 15px;
+}
+li a{
+    color: #000;
+}
+li a:active{
+    text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+    ul{
+        text-align: center;
+        float: right;
+    }
+
+    li{
+        display: inline-block;
+        border-bottom: 0px;
+    }
+}
